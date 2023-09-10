@@ -6,12 +6,20 @@ body {
   scrollbar-width: unset;
   font-family: sans-serif;
 }
+
+#msg{
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    box-shadow: 2px 2px white;
+}
+
 /* Navigation Bar */
 #navBar {
   margin: 1% 5%;
   position: absolute;
   top: 10px;
-  display: inline-block;
+  display: inline;
   width: 90%;
 }
 #logo {
